@@ -1,0 +1,405 @@
+.frame-child,
+.frame-item {
+  height: 24px;
+  width: 20px;
+  position: relative;
+}
+.frame-item {
+  height: 40px;
+  width: 50.4px;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1px 0 0;
+}
+.frame-inner {
+  height: 39.3px;
+  width: 272.7px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.search {
+  width: 71px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-abeezee);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  height: 22px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  display: inline-block;
+  transform: rotate(-0.23deg);
+  z-index: 1;
+}
+.arcticonssearchbar-ex {
+  height: 24.4px;
+  width: 23.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 1;
+}
+.rectangle-parent,
+.second-level-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangle-parent {
+  flex: 1;
+  background-color: var(--color-white);
+  justify-content: space-between;
+  padding: var(--padding-5xs) 9px 7px;
+}
+.second-level-frame {
+  width: 285px;
+  justify-content: flex-start;
+  padding: 0 12px 0 0;
+  box-sizing: border-box;
+}
+.first-level-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 23px;
+  gap: 9px 0;
+}
+.recupload {
+  width: 430px;
+  height: 291.9px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.upload-prescription-photo {
+  height: 66.5px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.upload-to-the-cloud {
+  height: 117.3px;
+  width: 90px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -84.1px;
+  left: 99px;
+  object-fit: cover;
+  z-index: 2;
+}
+.prescription-upload-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.uplod-text-child {
+  height: 59.9px;
+  width: 105px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.upload {
+  height: 49.5px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-adamina);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.uplod-text {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-8xs) var(--padding-8xs)
+    var(--padding-2xs);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+}
+.uplod-text-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl) 0 0;
+}
+.parent-container,
+.recupload-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.recupload-parent {
+  background-color: var(--color-gray-100);
+  padding: 34px 40px var(--padding-13xl) 71px;
+  gap: 100px;
+}
+.parent-container {
+  gap: 18px 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: #241f1f;
+  font-family: var(--font-adamina);
+}
+.method-text-child {
+  width: 437px;
+  height: 198px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.add-you-location {
+  margin: 0;
+  height: 47.1px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.online-offline-frame {
+  width: 252px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+.location-input-child {
+  height: 83.5px;
+  width: 403.5px;
+  position: relative;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.location {
+  width: 139.2px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-actor);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  height: 45px;
+  position: relative;
+  color: #595454;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.arcticonssearchbar-ex1 {
+  width: 30.5px;
+  height: 33.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.arcticonssearchbar-ex-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.location-input {
+  align-self: stretch;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-3xl) 39px var(--padding-base) var(--padding-3xl);
+  z-index: 1;
+}
+.location-input,
+.method-text,
+.payment-frame {
+  display: flex;
+  align-items: flex-start;
+}
+.method-text {
+  flex: 1;
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 38px var(--padding-lg);
+  gap: 30px 0;
+}
+.payment-frame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs) 0;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-cabin-condensed);
+}
+.payment-child {
+  width: 430px;
+  height: 172px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.payment-method {
+  margin: 0;
+  width: 250px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.cash-on-delivery-frame-child {
+  height: 103px;
+  width: 177px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-chocolate);
+  display: none;
+}
+.online {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.08em;
+  font-family: var(--font-caladea);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 2;
+}
+.cash-on-delivery-frame,
+.cash-on-delivery-frame-item {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-chocolate);
+}
+.cash-on-delivery-frame {
+  cursor: pointer;
+  border: 0;
+  padding: 27px 19px 36px 35px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  min-width: 115px;
+  z-index: 1;
+}
+.cash-on-delivery-frame-item {
+  height: 103px;
+  width: 177px;
+  position: relative;
+  display: none;
+}
+.cash-on-delivery {
+  align-self: stretch;
+  width: 145px;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.05em;
+  font-family: var(--font-caladea);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.cash-on-delivery-frame1 {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 14px 20px var(--padding-lg);
+  background-color: var(--color-chocolate);
+  height: 103px;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.cash-on-delivery-frame-parent,
+.payment,
+.payment-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cash-on-delivery-frame-parent {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 24px;
+}
+.payment,
+.payment-inner {
+  align-self: stretch;
+}
+.payment-inner {
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+}
+.payment {
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: 0 21px 17px 15px;
+  gap: 8px;
+}
+.taskbar3-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iphone-14-15-pro-max-3,
+.payment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.payment-section {
+  align-self: stretch;
+  gap: 17px 0;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-cabin-condensed);
+}
+.iphone-14-15-pro-max-3 {
+  width: 100%;
+  position: relative;
+  background-color: #98ef47;
+  overflow: hidden;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  gap: 35px 0;
+}
